@@ -13,6 +13,8 @@ layer implemented as two explicit, separately-tested stages.
   [`wikitools/augment.py`](wikitools/augment.py)
 - Full pipeline: [`wikitools/`](wikitools/) (reverts, chunking, indexing,
   aggregate, retrieve, ledger) — 59 tests, all passing, in [`tests/`](tests/)
+- App link - https://dev2180.github.io/edit-war-detective/
+- Repo link - https://github.com/dev2180/edit-war-detective/
 
 Representative query used for all numbers below:
 
