@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EDIT-WAR DETECTIVE // CASE #2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=DotGothic16&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="crt">
+
+  <!-- ============ TITLE / MODE SELECT ============ -->
+  <section id="screen-title" class="screen active">
+    <div class="attract" id="attract-marquee"></div>
+    <h1 class="title-glow">EDIT-WAR<br>DETECTIVE</h1>
+    <p class="subtitle">CASE #2026 · 2026 FIFA WORLD CUP</p>
+    <div class="menu">
+      <button class="pixel-btn" id="btn-story">&#9654; STORY MODE <span class="menu-hint">TAKE THE CASE</span></button>
+      <button class="pixel-btn" id="btn-desk">&#9654; DETECTIVE MODE <span class="menu-hint">WORK THE DESK</span></button>
+    </div>
+    <p class="blink" id="insert-coin">PRESS ANY KEY / INSERT COIN</p>
+    <p class="footer-note">100xEngineers Token Optimization Hackathon — Track A</p>
+  </section>
+
+  <!-- ============ STORY MODE RAIL ============ -->
+  <section id="screen-story" class="screen">
+    <div class="skip-hint">ANY KEY SKIPS ▸</div>
+
+    <div class="beat" id="beat-cold-open">
+      <div class="case-stamp">CASE #2026</div>
+      <p class="detective-line" id="line-cold-open"></p>
+    </div>
+
+    <div class="beat" id="beat-pain">
+      <div class="raw-dump" id="raw-dump-scroll"></div>
+      <p class="counter-line">RAW HISTORY: <span id="pain-counter">0</span> TOKENS</p>
+      <p class="detective-line" id="line-pain"></p>
+    </div>
+
+    <div class="beat" id="beat-boss">
+      <p class="boss-label">RAW HISTORY</p>
+      <div class="hp-bar-outer"><div class="hp-bar-inner" id="hp-bar"></div></div>
+      <p class="hp-number" id="hp-number"></p>
+      <div class="damage-pop" id="damage-pop"></div>
+      <p class="combo" id="combo-line"></p>
+    </div>
+
+    <div class="beat" id="beat-facts">
+      <div class="facts-split">
+        <div class="facts-old">
+          <h3>OLD FACTS</h3>
+          <p id="old-facts-number"></p>
+          <p class="facts-sub">raw revision history</p>
+        </div>
+        <div class="facts-vs">VS</div>
+        <div class="facts-new">
+          <h3>NEW FACTS</h3>
+          <p id="new-facts-number"></p>
+          <p class="facts-sub">the verdict</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="beat" id="beat-verdict">
+      <div class="stamp-verdict" id="verdict-stamp"></div>
+      <p class="detective-line" id="line-verdict"></p>
+    </div>
+
+    <div class="beat" id="beat-closed">
+      <h2 class="case-closed-title">CASE CLOSED</h2>
+      <p class="detective-line" id="line-closed"></p>
+      <div class="highscore-table" id="highscore-table"></div>
+      <p class="blink">PRESS ANY KEY → DETECTIVE MODE</p>
+    </div>
+  </section>
+
+  <!-- ============ DETECTIVE MODE DESK ============ -->
+  <section id="screen-desk" class="screen">
+    <header class="desk-header">
+      <h2>THE DESK</h2>
+      <button class="pixel-btn small" id="btn-back-title">&#9664; TITLE</button>
+    </header>
+
+    <div class="desk-grid">
+
+      <div class="panel" id="panel-map">
+        <h3>THE MAP <span class="panel-hint">click a bucket</span></h3>
+        <div class="heatmap" id="heatmap"></div>
+        <p class="map-caption" id="map-caption">Click a day/hour bucket for the detective's take.</p>
+      </div>
+
+      <div class="panel" id="panel-roster">
+        <h3>ROGUES' GALLERY <span class="panel-hint">click two for a VS screen</span></h3>
+        <div class="roster" id="roster"></div>
+        <div class="vs-screen" id="vs-screen"></div>
+      </div>
+
+      <div class="panel" id="panel-ask">
+        <h3>ASK THE DETECTIVE</h3>
+        <div class="case-cards" id="case-cards"></div>
+        <div class="ask-free">
+          <input type="text" id="ask-input" placeholder="or ask your own question...">
+          <button class="pixel-btn small" id="ask-submit">ASK</button>
+        </div>
+        <div class="detective-reply" id="detective-reply"></div>
+      </div>
+
+      <div class="panel" id="panel-evidence">
+        <h3>EVIDENCE</h3>
+        <div class="evidence-bar">
+          <div class="lamp-group">
+            <span class="lamp" id="mode-lamp">CACHED</span>
+          </div>
+          <button class="pixel-btn small" id="btn-recount">RECOUNT</button>
+          <div class="recount-readout" id="recount-readout"></div>
+        </div>
+        <div class="coin-jars">
+          <div class="jar-block">
+            <p>BEFORE (raw)</p>
+            <div class="jar" id="jar-before"></div>
+            <p class="jar-cost" id="jar-before-cost"></p>
+          </div>
+          <div class="jar-block">
+            <p>AFTER (compressed)</p>
+            <div class="jar" id="jar-after"></div>
+            <p class="jar-cost" id="jar-after-cost"></p>
+          </div>
+        </div>
+        <p class="savings-line" id="savings-line"></p>
+      </div>
+
+    </div>
+  </section>
+
+</div>
+<script src="app.js"></script>
+</body>
+</html>

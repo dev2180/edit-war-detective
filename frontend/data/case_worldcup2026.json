@@ -1,0 +1,1014 @@
+{
+  "article": "2026 FIFA World Cup",
+  "live_start_date": "2026-06-01",
+  "live_end_date": "2026-07-20",
+  "before_tokens": 1193518,
+  "after_tokens": 61,
+  "compression_x": 19565.868852459018,
+  "stages": [
+    {
+      "name": "baseline_retrieved",
+      "tokens_so_far": 977427
+    },
+    {
+      "name": "live_retrieved",
+      "tokens_so_far": 1193518
+    },
+    {
+      "name": "augmented",
+      "tokens_so_far": 61
+    }
+  ],
+  "verdict": {
+    "safest_baseline_window": "Thu-08",
+    "baseline_rate": 0.043478260869565216,
+    "baseline_edits_sampled": 23,
+    "live_rate": 0.0,
+    "live_edits_sampled": 7,
+    "still_safe": true
+  },
+  "cost_projection": {
+    "before": {
+      "daily_cost": 35.208781,
+      "monthly_cost": 1056.26343,
+      "yearly_cost": 12851.205065
+    },
+    "after": {
+      "daily_cost": 0.0017994999999999997,
+      "monthly_cost": 0.05398499999999999,
+      "yearly_cost": 0.6568174999999998
+    },
+    "savings": {
+      "daily_cost": 35.206981500000005,
+      "monthly_cost": 1056.209445,
+      "yearly_cost": 12850.5482475
+    },
+    "compression_x": 19565.868852459018,
+    "clears_volume_bar": true
+  },
+  "safety_grid": {
+    "Mon-05": {
+      "edits": 30,
+      "reverts": 9,
+      "rate": 0.3
+    },
+    "Mon-06": {
+      "edits": 33,
+      "reverts": 5,
+      "rate": 0.15151515151515152
+    },
+    "Tue-22": {
+      "edits": 63,
+      "reverts": 11,
+      "rate": 0.1746031746031746
+    },
+    "Sat-09": {
+      "edits": 18,
+      "reverts": 3,
+      "rate": 0.16666666666666666
+    },
+    "Sat-02": {
+      "edits": 52,
+      "reverts": 6,
+      "rate": 0.11538461538461539
+    },
+    "Sun-07": {
+      "edits": 16,
+      "reverts": 1,
+      "rate": 0.0625
+    },
+    "Sun-08": {
+      "edits": 23,
+      "reverts": 3,
+      "rate": 0.13043478260869565
+    },
+    "Mon-07": {
+      "edits": 45,
+      "reverts": 3,
+      "rate": 0.06666666666666667
+    },
+    "Tue-03": {
+      "edits": 47,
+      "reverts": 6,
+      "rate": 0.1276595744680851
+    },
+    "Sat-19": {
+      "edits": 32,
+      "reverts": 7,
+      "rate": 0.21875
+    },
+    "Sat-20": {
+      "edits": 39,
+      "reverts": 4,
+      "rate": 0.10256410256410256
+    },
+    "Thu-16": {
+      "edits": 102,
+      "reverts": 13,
+      "rate": 0.12745098039215685
+    },
+    "Thu-03": {
+      "edits": 44,
+      "reverts": 8,
+      "rate": 0.18181818181818182
+    },
+    "Thu-17": {
+      "edits": 73,
+      "reverts": 10,
+      "rate": 0.136986301369863
+    },
+    "Sun-22": {
+      "edits": 54,
+      "reverts": 11,
+      "rate": 0.2037037037037037
+    },
+    "Wed-11": {
+      "edits": 76,
+      "reverts": 9,
+      "rate": 0.11842105263157894
+    },
+    "Wed-18": {
+      "edits": 43,
+      "reverts": 3,
+      "rate": 0.06976744186046512
+    },
+    "Wed-20": {
+      "edits": 47,
+      "reverts": 11,
+      "rate": 0.23404255319148937
+    },
+    "Thu-14": {
+      "edits": 54,
+      "reverts": 6,
+      "rate": 0.1111111111111111
+    },
+    "Sun-13": {
+      "edits": 36,
+      "reverts": 5,
+      "rate": 0.1388888888888889
+    },
+    "Wed-00": {
+      "edits": 45,
+      "reverts": 13,
+      "rate": 0.28888888888888886
+    },
+    "Sat-01": {
+      "edits": 40,
+      "reverts": 13,
+      "rate": 0.325
+    },
+    "Sun-21": {
+      "edits": 89,
+      "reverts": 19,
+      "rate": 0.21348314606741572
+    },
+    "Mon-16": {
+      "edits": 65,
+      "reverts": 12,
+      "rate": 0.18461538461538463
+    },
+    "Mon-20": {
+      "edits": 51,
+      "reverts": 12,
+      "rate": 0.23529411764705882
+    },
+    "Mon-04": {
+      "edits": 25,
+      "reverts": 7,
+      "rate": 0.28
+    },
+    "Thu-21": {
+      "edits": 75,
+      "reverts": 12,
+      "rate": 0.16
+    },
+    "Fri-04": {
+      "edits": 29,
+      "reverts": 3,
+      "rate": 0.10344827586206896
+    },
+    "Sun-02": {
+      "edits": 30,
+      "reverts": 9,
+      "rate": 0.3
+    },
+    "Thu-20": {
+      "edits": 70,
+      "reverts": 13,
+      "rate": 0.18571428571428572
+    },
+    "Thu-23": {
+      "edits": 61,
+      "reverts": 8,
+      "rate": 0.13114754098360656
+    },
+    "Thu-05": {
+      "edits": 34,
+      "reverts": 5,
+      "rate": 0.14705882352941177
+    },
+    "Tue-19": {
+      "edits": 53,
+      "reverts": 20,
+      "rate": 0.37735849056603776
+    },
+    "Wed-15": {
+      "edits": 120,
+      "reverts": 20,
+      "rate": 0.16666666666666666
+    },
+    "Sat-05": {
+      "edits": 34,
+      "reverts": 9,
+      "rate": 0.2647058823529412
+    },
+    "Sat-16": {
+      "edits": 38,
+      "reverts": 8,
+      "rate": 0.21052631578947367
+    },
+    "Tue-16": {
+      "edits": 61,
+      "reverts": 12,
+      "rate": 0.19672131147540983
+    },
+    "Tue-17": {
+      "edits": 89,
+      "reverts": 14,
+      "rate": 0.15730337078651685
+    },
+    "Sat-14": {
+      "edits": 32,
+      "reverts": 8,
+      "rate": 0.25
+    },
+    "Wed-16": {
+      "edits": 67,
+      "reverts": 13,
+      "rate": 0.19402985074626866
+    },
+    "Thu-09": {
+      "edits": 33,
+      "reverts": 11,
+      "rate": 0.3333333333333333
+    },
+    "Mon-08": {
+      "edits": 25,
+      "reverts": 6,
+      "rate": 0.24
+    },
+    "Wed-21": {
+      "edits": 54,
+      "reverts": 10,
+      "rate": 0.18518518518518517
+    },
+    "Thu-00": {
+      "edits": 30,
+      "reverts": 8,
+      "rate": 0.26666666666666666
+    },
+    "Tue-09": {
+      "edits": 34,
+      "reverts": 8,
+      "rate": 0.23529411764705882
+    },
+    "Sat-04": {
+      "edits": 16,
+      "reverts": 4,
+      "rate": 0.25
+    },
+    "Sat-17": {
+      "edits": 52,
+      "reverts": 11,
+      "rate": 0.21153846153846154
+    },
+    "Sun-15": {
+      "edits": 32,
+      "reverts": 6,
+      "rate": 0.1875
+    },
+    "Sun-17": {
+      "edits": 53,
+      "reverts": 13,
+      "rate": 0.24528301886792453
+    },
+    "Mon-00": {
+      "edits": 31,
+      "reverts": 7,
+      "rate": 0.22580645161290322
+    },
+    "Mon-01": {
+      "edits": 45,
+      "reverts": 11,
+      "rate": 0.24444444444444444
+    },
+    "Sat-18": {
+      "edits": 30,
+      "reverts": 9,
+      "rate": 0.3
+    },
+    "Sun-01": {
+      "edits": 56,
+      "reverts": 11,
+      "rate": 0.19642857142857142
+    },
+    "Tue-13": {
+      "edits": 41,
+      "reverts": 9,
+      "rate": 0.21951219512195122
+    },
+    "Mon-03": {
+      "edits": 29,
+      "reverts": 7,
+      "rate": 0.2413793103448276
+    },
+    "Fri-06": {
+      "edits": 29,
+      "reverts": 7,
+      "rate": 0.2413793103448276
+    },
+    "Fri-00": {
+      "edits": 43,
+      "reverts": 9,
+      "rate": 0.20930232558139536
+    },
+    "Sat-08": {
+      "edits": 31,
+      "reverts": 4,
+      "rate": 0.12903225806451613
+    },
+    "Sat-10": {
+      "edits": 42,
+      "reverts": 5,
+      "rate": 0.11904761904761904
+    },
+    "Sun-14": {
+      "edits": 55,
+      "reverts": 9,
+      "rate": 0.16363636363636364
+    },
+    "Sat-13": {
+      "edits": 40,
+      "reverts": 12,
+      "rate": 0.3
+    },
+    "Mon-10": {
+      "edits": 19,
+      "reverts": 1,
+      "rate": 0.05263157894736842
+    },
+    "Wed-12": {
+      "edits": 48,
+      "reverts": 8,
+      "rate": 0.16666666666666666
+    },
+    "Wed-13": {
+      "edits": 82,
+      "reverts": 17,
+      "rate": 0.2073170731707317
+    },
+    "Sat-15": {
+      "edits": 52,
+      "reverts": 16,
+      "rate": 0.3076923076923077
+    },
+    "Mon-22": {
+      "edits": 54,
+      "reverts": 7,
+      "rate": 0.12962962962962962
+    },
+    "Mon-21": {
+      "edits": 61,
+      "reverts": 20,
+      "rate": 0.32786885245901637
+    },
+    "Tue-01": {
+      "edits": 54,
+      "reverts": 12,
+      "rate": 0.2222222222222222
+    },
+    "Wed-19": {
+      "edits": 45,
+      "reverts": 8,
+      "rate": 0.17777777777777778
+    },
+    "Fri-23": {
+      "edits": 38,
+      "reverts": 10,
+      "rate": 0.2631578947368421
+    },
+    "Mon-11": {
+      "edits": 29,
+      "reverts": 5,
+      "rate": 0.1724137931034483
+    },
+    "Tue-02": {
+      "edits": 41,
+      "reverts": 10,
+      "rate": 0.24390243902439024
+    },
+    "Wed-01": {
+      "edits": 46,
+      "reverts": 8,
+      "rate": 0.17391304347826086
+    },
+    "Wed-14": {
+      "edits": 92,
+      "reverts": 16,
+      "rate": 0.17391304347826086
+    },
+    "Tue-11": {
+      "edits": 17,
+      "reverts": 4,
+      "rate": 0.23529411764705882
+    },
+    "Thu-18": {
+      "edits": 73,
+      "reverts": 8,
+      "rate": 0.1095890410958904
+    },
+    "Thu-19": {
+      "edits": 73,
+      "reverts": 18,
+      "rate": 0.2465753424657534
+    },
+    "Sun-12": {
+      "edits": 35,
+      "reverts": 3,
+      "rate": 0.08571428571428572
+    },
+    "Sun-03": {
+      "edits": 34,
+      "reverts": 6,
+      "rate": 0.17647058823529413
+    },
+    "Sun-19": {
+      "edits": 35,
+      "reverts": 9,
+      "rate": 0.2571428571428571
+    },
+    "Thu-01": {
+      "edits": 44,
+      "reverts": 10,
+      "rate": 0.22727272727272727
+    },
+    "Thu-10": {
+      "edits": 29,
+      "reverts": 8,
+      "rate": 0.27586206896551724
+    },
+    "Fri-21": {
+      "edits": 44,
+      "reverts": 4,
+      "rate": 0.09090909090909091
+    },
+    "Fri-22": {
+      "edits": 54,
+      "reverts": 10,
+      "rate": 0.18518518518518517
+    },
+    "Sat-21": {
+      "edits": 30,
+      "reverts": 7,
+      "rate": 0.23333333333333334
+    },
+    "Sat-22": {
+      "edits": 36,
+      "reverts": 10,
+      "rate": 0.2777777777777778
+    },
+    "Fri-13": {
+      "edits": 38,
+      "reverts": 6,
+      "rate": 0.15789473684210525
+    },
+    "Sat-23": {
+      "edits": 33,
+      "reverts": 8,
+      "rate": 0.24242424242424243
+    },
+    "Sun-10": {
+      "edits": 27,
+      "reverts": 7,
+      "rate": 0.25925925925925924
+    },
+    "Fri-03": {
+      "edits": 21,
+      "reverts": 4,
+      "rate": 0.19047619047619047
+    },
+    "Sat-11": {
+      "edits": 40,
+      "reverts": 5,
+      "rate": 0.125
+    },
+    "Fri-01": {
+      "edits": 49,
+      "reverts": 9,
+      "rate": 0.1836734693877551
+    },
+    "Fri-16": {
+      "edits": 48,
+      "reverts": 13,
+      "rate": 0.2708333333333333
+    },
+    "Fri-02": {
+      "edits": 52,
+      "reverts": 10,
+      "rate": 0.19230769230769232
+    },
+    "Fri-15": {
+      "edits": 72,
+      "reverts": 10,
+      "rate": 0.1388888888888889
+    },
+    "Tue-07": {
+      "edits": 20,
+      "reverts": 6,
+      "rate": 0.3
+    },
+    "Wed-17": {
+      "edits": 76,
+      "reverts": 10,
+      "rate": 0.13157894736842105
+    },
+    "Thu-04": {
+      "edits": 35,
+      "reverts": 9,
+      "rate": 0.2571428571428571
+    },
+    "Sun-09": {
+      "edits": 18,
+      "reverts": 3,
+      "rate": 0.16666666666666666
+    },
+    "Sun-05": {
+      "edits": 23,
+      "reverts": 5,
+      "rate": 0.21739130434782608
+    },
+    "Thu-13": {
+      "edits": 38,
+      "reverts": 7,
+      "rate": 0.18421052631578946
+    },
+    "Sun-20": {
+      "edits": 69,
+      "reverts": 13,
+      "rate": 0.18840579710144928
+    },
+    "Mon-14": {
+      "edits": 44,
+      "reverts": 5,
+      "rate": 0.11363636363636363
+    },
+    "Mon-17": {
+      "edits": 50,
+      "reverts": 11,
+      "rate": 0.22
+    },
+    "Mon-23": {
+      "edits": 70,
+      "reverts": 17,
+      "rate": 0.24285714285714285
+    },
+    "Tue-18": {
+      "edits": 101,
+      "reverts": 23,
+      "rate": 0.22772277227722773
+    },
+    "Sat-03": {
+      "edits": 25,
+      "reverts": 3,
+      "rate": 0.12
+    },
+    "Sun-06": {
+      "edits": 37,
+      "reverts": 10,
+      "rate": 0.2702702702702703
+    },
+    "Wed-03": {
+      "edits": 73,
+      "reverts": 12,
+      "rate": 0.1643835616438356
+    },
+    "Wed-04": {
+      "edits": 59,
+      "reverts": 12,
+      "rate": 0.2033898305084746
+    },
+    "Sat-12": {
+      "edits": 48,
+      "reverts": 10,
+      "rate": 0.20833333333333334
+    },
+    "Sat-00": {
+      "edits": 43,
+      "reverts": 8,
+      "rate": 0.18604651162790697
+    },
+    "Mon-02": {
+      "edits": 23,
+      "reverts": 3,
+      "rate": 0.13043478260869565
+    },
+    "Tue-05": {
+      "edits": 18,
+      "reverts": 3,
+      "rate": 0.16666666666666666
+    },
+    "Tue-14": {
+      "edits": 52,
+      "reverts": 7,
+      "rate": 0.1346153846153846
+    },
+    "Sun-11": {
+      "edits": 35,
+      "reverts": 5,
+      "rate": 0.14285714285714285
+    },
+    "Wed-07": {
+      "edits": 28,
+      "reverts": 4,
+      "rate": 0.14285714285714285
+    },
+    "Wed-09": {
+      "edits": 33,
+      "reverts": 3,
+      "rate": 0.09090909090909091
+    },
+    "Fri-07": {
+      "edits": 36,
+      "reverts": 3,
+      "rate": 0.08333333333333333
+    },
+    "Fri-08": {
+      "edits": 24,
+      "reverts": 7,
+      "rate": 0.2916666666666667
+    },
+    "Mon-09": {
+      "edits": 22,
+      "reverts": 8,
+      "rate": 0.36363636363636365
+    },
+    "Thu-12": {
+      "edits": 40,
+      "reverts": 6,
+      "rate": 0.15
+    },
+    "Fri-09": {
+      "edits": 18,
+      "reverts": 3,
+      "rate": 0.16666666666666666
+    },
+    "Tue-00": {
+      "edits": 52,
+      "reverts": 9,
+      "rate": 0.17307692307692307
+    },
+    "Tue-06": {
+      "edits": 36,
+      "reverts": 3,
+      "rate": 0.08333333333333333
+    },
+    "Tue-12": {
+      "edits": 60,
+      "reverts": 10,
+      "rate": 0.16666666666666666
+    },
+    "Tue-21": {
+      "edits": 104,
+      "reverts": 25,
+      "rate": 0.2403846153846154
+    },
+    "Wed-22": {
+      "edits": 64,
+      "reverts": 11,
+      "rate": 0.171875
+    },
+    "Thu-06": {
+      "edits": 42,
+      "reverts": 5,
+      "rate": 0.11904761904761904
+    },
+    "Fri-14": {
+      "edits": 45,
+      "reverts": 8,
+      "rate": 0.17777777777777778
+    },
+    "Fri-18": {
+      "edits": 40,
+      "reverts": 13,
+      "rate": 0.325
+    },
+    "Mon-13": {
+      "edits": 45,
+      "reverts": 5,
+      "rate": 0.1111111111111111
+    },
+    "Wed-23": {
+      "edits": 48,
+      "reverts": 8,
+      "rate": 0.16666666666666666
+    },
+    "Sun-23": {
+      "edits": 33,
+      "reverts": 6,
+      "rate": 0.18181818181818182
+    },
+    "Mon-15": {
+      "edits": 52,
+      "reverts": 10,
+      "rate": 0.19230769230769232
+    },
+    "Wed-02": {
+      "edits": 53,
+      "reverts": 6,
+      "rate": 0.11320754716981132
+    },
+    "Fri-12": {
+      "edits": 20,
+      "reverts": 4,
+      "rate": 0.2
+    },
+    "Sun-16": {
+      "edits": 43,
+      "reverts": 11,
+      "rate": 0.2558139534883721
+    },
+    "Sat-06": {
+      "edits": 34,
+      "reverts": 14,
+      "rate": 0.4117647058823529
+    },
+    "Fri-20": {
+      "edits": 57,
+      "reverts": 8,
+      "rate": 0.14035087719298245
+    },
+    "Thu-15": {
+      "edits": 71,
+      "reverts": 17,
+      "rate": 0.23943661971830985
+    },
+    "Mon-19": {
+      "edits": 58,
+      "reverts": 13,
+      "rate": 0.22413793103448276
+    },
+    "Tue-23": {
+      "edits": 59,
+      "reverts": 10,
+      "rate": 0.1694915254237288
+    },
+    "Thu-08": {
+      "edits": 23,
+      "reverts": 1,
+      "rate": 0.043478260869565216
+    },
+    "Mon-12": {
+      "edits": 21,
+      "reverts": 7,
+      "rate": 0.3333333333333333
+    },
+    "Fri-05": {
+      "edits": 27,
+      "reverts": 2,
+      "rate": 0.07407407407407407
+    },
+    "Tue-08": {
+      "edits": 25,
+      "reverts": 3,
+      "rate": 0.12
+    },
+    "Mon-18": {
+      "edits": 58,
+      "reverts": 10,
+      "rate": 0.1724137931034483
+    },
+    "Sun-18": {
+      "edits": 69,
+      "reverts": 16,
+      "rate": 0.2318840579710145
+    },
+    "Fri-11": {
+      "edits": 16,
+      "reverts": 2,
+      "rate": 0.125
+    },
+    "Tue-04": {
+      "edits": 42,
+      "reverts": 6,
+      "rate": 0.14285714285714285
+    },
+    "Wed-10": {
+      "edits": 37,
+      "reverts": 6,
+      "rate": 0.16216216216216217
+    },
+    "Thu-02": {
+      "edits": 37,
+      "reverts": 6,
+      "rate": 0.16216216216216217
+    },
+    "Tue-20": {
+      "edits": 79,
+      "reverts": 12,
+      "rate": 0.1518987341772152
+    },
+    "Wed-06": {
+      "edits": 21,
+      "reverts": 5,
+      "rate": 0.23809523809523808
+    },
+    "Thu-11": {
+      "edits": 33,
+      "reverts": 7,
+      "rate": 0.21212121212121213
+    },
+    "Wed-08": {
+      "edits": 25,
+      "reverts": 2,
+      "rate": 0.08
+    },
+    "Fri-19": {
+      "edits": 52,
+      "reverts": 12,
+      "rate": 0.23076923076923078
+    },
+    "Fri-10": {
+      "edits": 27,
+      "reverts": 2,
+      "rate": 0.07407407407407407
+    },
+    "Tue-15": {
+      "edits": 49,
+      "reverts": 10,
+      "rate": 0.20408163265306123
+    },
+    "Fri-17": {
+      "edits": 56,
+      "reverts": 9,
+      "rate": 0.16071428571428573
+    },
+    "Sun-00": {
+      "edits": 26,
+      "reverts": 6,
+      "rate": 0.23076923076923078
+    },
+    "Wed-05": {
+      "edits": 48,
+      "reverts": 4,
+      "rate": 0.08333333333333333
+    },
+    "Tue-10": {
+      "edits": 28,
+      "reverts": 2,
+      "rate": 0.07142857142857142
+    },
+    "Thu-22": {
+      "edits": 94,
+      "reverts": 9,
+      "rate": 0.09574468085106383
+    },
+    "Sat-07": {
+      "edits": 22,
+      "reverts": 3,
+      "rate": 0.13636363636363635
+    },
+    "Thu-07": {
+      "edits": 26,
+      "reverts": 3,
+      "rate": 0.11538461538461539
+    },
+    "Sun-04": {
+      "edits": 36,
+      "reverts": 11,
+      "rate": 0.3055555555555556
+    }
+  },
+  "revert_roster": [
+    {
+      "name": "Walter G\u00f6rlitz",
+      "edits": 203,
+      "reverts_made": 156,
+      "reverts_received": 21,
+      "net_bytes": -45752
+    },
+    {
+      "name": "Assadzadeh",
+      "edits": 469,
+      "reverts_made": 83,
+      "reverts_received": 34,
+      "net_bytes": -45512
+    },
+    {
+      "name": "1995hoo",
+      "edits": 271,
+      "reverts_made": 64,
+      "reverts_received": 20,
+      "net_bytes": 229
+    },
+    {
+      "name": "Jkudlick",
+      "edits": 199,
+      "reverts_made": 64,
+      "reverts_received": 16,
+      "net_bytes": -117244
+    },
+    {
+      "name": "S.A. Julio",
+      "edits": 240,
+      "reverts_made": 65,
+      "reverts_received": 13,
+      "net_bytes": 7151
+    }
+  ],
+  "revert_matrix": [
+    {
+      "reverter": "Leoberacai",
+      "reverted": "70.190.79.251",
+      "count": 6
+    },
+    {
+      "reverter": "Walter G\u00f6rlitz",
+      "reverted": "Hmdwgf",
+      "count": 6
+    },
+    {
+      "reverter": "Annh07",
+      "reverted": "Deadbrain17",
+      "count": 5
+    },
+    {
+      "reverter": "1995hoo",
+      "reverted": "MarksmanRifle",
+      "count": 4
+    },
+    {
+      "reverter": "Adeletron 3030",
+      "reverted": "Hmdwgf",
+      "count": 4
+    },
+    {
+      "reverter": "Deadbrain17",
+      "reverted": "Annh07",
+      "count": 4
+    },
+    {
+      "reverter": "Donner60",
+      "reverted": "188.50.201.11",
+      "count": 4
+    },
+    {
+      "reverter": "JalenBarks",
+      "reverted": "Assadzadeh",
+      "count": 4
+    },
+    {
+      "reverter": "Jkudlick",
+      "reverted": "Assadzadeh",
+      "count": 4
+    },
+    {
+      "reverter": "Sportsfan 1234",
+      "reverted": "Hmdwgf",
+      "count": 4
+    }
+  ],
+  "war_windows": [
+    {
+      "start": "2026-07-18T23:09:48Z",
+      "end": "2026-07-19T22:48:06Z",
+      "revert_count": 21
+    },
+    {
+      "start": "2018-06-13T14:46:28Z",
+      "end": "2018-06-14T04:09:40Z",
+      "revert_count": 15
+    },
+    {
+      "start": "2022-12-03T17:35:46Z",
+      "end": "2022-12-04T16:38:43Z",
+      "revert_count": 15
+    },
+    {
+      "start": "2018-07-13T15:42:27Z",
+      "end": "2018-07-14T12:45:06Z",
+      "revert_count": 11
+    },
+    {
+      "start": "2022-12-01T12:00:27Z",
+      "end": "2022-12-02T06:04:54Z",
+      "revert_count": 10
+    }
+  ],
+  "narration": {
+    "cold_open": "\"Walter G\u00f6rlitz started it. Nobody remembers who finishes these things. 1,193,518 tokens of history landed on my desk. Somebody had to read it all. That somebody was me.\"",
+    "the_pain": "\"This is what the case looked like when it hit my desk: 1,193,518 tokens, raw.\"",
+    "boss_fight_intro": "\"Watch me work it down.\"",
+    "verdict": "\"Thu-08. That's your window, kid. 4.3% revert rate in 23 sampled edits, going back years. And it held up live: 0% reverts in 7 edits during the tournament. Still safe.\"",
+    "case_closed": "\"1,193,518 down to 61. 19,566x. Case closed.\""
+  }
+}

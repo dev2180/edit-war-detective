@@ -1,0 +1,8 @@
+{
+  "safest_baseline_window": "Thu-08",
+  "baseline_rate": 0.043478260869565216,
+  "baseline_edits_sampled": 23,
+  "live_rate": 0.0,
+  "live_edits_sampled": 7,
+  "still_safe": true
+}

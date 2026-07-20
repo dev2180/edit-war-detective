@@ -27,7 +27,9 @@ python -m pytest              # 59 tests, no network calls
 python step0_validate.py      # sanity-check the live Wikipedia API
 python step1_chunk.py         # fetch + cache full revision history
 python step2_index.py         # build casefiles/index.json
-python step5_prove_it.py      # BEFORE/AFTER report
+python step3_retrieve.py      # RETRIEVAL only -- raw revisions, no compression
+python step4_augment.py       # AUGMENT only -- compresses step 3's output into a verdict
+python step5_prove_it.py      # BEFORE/AFTER report (both tools, incl. the headline number)
 python engine.py              # run the live detective agent (needs GROQ_API_KEY)
 ```
 
